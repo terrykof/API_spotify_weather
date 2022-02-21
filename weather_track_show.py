@@ -60,8 +60,8 @@ else:
     print(f"City Name: {city_name} não foi encontrado!")
 
 # credenciais para acesso spotify
-sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id="a45875e4cfd848eab86f4a95f9b7976e",
-                                                                         client_secret="b95b1f46066d4ed995b24d0cc0a08c51"))
+sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(client_id="Cliente ID",
+                                                                         client_secret="Secret KEY"))
 
 pl_id = (pl(temperatura))
 
